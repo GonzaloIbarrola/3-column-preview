@@ -1,0 +1,23 @@
+@tailwind base;
+  @layer base {
+    main {
+      @apply flex justify-center items-center lg:h-screen h-full py-9 lg:py-0
+    }
+    h2 {
+      @apply text-White text-[40px] leading-[47.88px] font-heading uppercase
+    }
+    p {
+      @apply text-White/75 leading-[25px] font-normal font-body text-[15px]
+    }
+    img {
+      @apply w-16 h-10 mb-[10px]
+    }
+    button {
+      @apply lg:mt-[58px] bg-White h-12 rounded-[25px] font-medium w-[146px] active:bg-opacity-0 active:border-2 active:border-White active:text-White
+    }
+    section {
+      @apply rounded-lg max-w-[327px] lg:max-w-[920px] overflow-hidden lg:flex lg:flex-row
+    }
+  }
+@tailwind components;
+@tailwind utilities;
