@@ -1,5 +1,8 @@
 @tailwind base;
   @layer base {
+    body {
+      @apply bg-[#F2F2F2]
+    }
     main {
       @apply flex justify-center items-center lg:h-screen h-full py-9 lg:py-0
     }
